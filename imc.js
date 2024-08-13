@@ -13,23 +13,23 @@ function imc () {
         let classificacao = '';
 
         if (valorIMC < 18.5){
-            classificacao = 'abaixo do peso.';
+            classificacao = 'Você Deveria Comer Não Ser Comido.';
         }else if (valorIMC < 25) {
-            classificacao = 'com peso ideal. Parabéns!!!';
+            classificacao = 'Continue Assim Que Voce Vive Mais.';
         }else if (valorIMC < 30){
-            classificacao = 'levemente acima do peso.';
+            classificacao = 'Melhor Começar A Se Controlar.';
         }else if (valorIMC < 35){
-            classificacao = 'com obesidade grau I.';
+            classificacao = 'Acho Que Você Esta Começando A Parecer Uma Bola Melhor Parar.';
         }else if (valorIMC < 40){
-            classificacao = 'com obesidade grau II';
+            classificacao = 'Se Antes Você Parecia Agora Você É Uma Bola.';
         }else {
-            classificacao = 'com obesidade grau III. Cuidado!!';
+            classificacao = 'Logo Logo Você Vai Falir Todes As Lanchonetes Do Mundo';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        resultado.textContent = `${nome} O Quanto Você Está Se Envergonhando ${valorIMC} Mas Pelo Menos Você Está ${classificacao}`;
        
     }else {
-        resultado.textContent = 'Preencha todos os campos!!!';
+        resultado.textContent = 'Deixa De Ser Imbecil';
     }
 
 }
